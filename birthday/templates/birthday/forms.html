@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Novo aniversário{% endblock %}
+{% block content %}
+  <h1>Novo aniversário</h1>
+  <form method="post" class="form">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn">Salvar</button>
+    <a class="btn btn-secondary" href="{% url 'birthday_list' %}">Voltar</a>
+  </form>
+{% endblock %}

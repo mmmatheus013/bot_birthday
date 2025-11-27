@@ -1,0 +1,8 @@
+body { font-family: system-ui, Arial, sans-serif; margin: 2rem; }
+nav a { margin-right: 1rem; }
+h1 { margin-bottom: 1rem; }
+.form p { margin: 0.5rem 0; }
+.btn { padding: 0.4rem 0.8rem; border: 1px solid #333; border-radius: 4px; text-decoration: none; display: inline-block; }
+.btn-secondary { border-color: #777; color: #555; }
+.list { list-style: none; padding: 0; }
+.list li { padding: 0.25rem 0; border-bottom: 1px solid #eee; }

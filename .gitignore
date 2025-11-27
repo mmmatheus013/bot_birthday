@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# VS Code
+.vscode/
+
+# Docker
+*.pid
+docker-compose.override.yml
+evolution_instances/
+postgres_data/
+
+# Node/npm (se usar)
+node_modules/
+
+# Git
+.DS_Store

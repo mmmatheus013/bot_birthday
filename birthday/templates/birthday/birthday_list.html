@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Aniversários{% endblock %}
+{% block content %}
+  <h1>Aniversários</h1>
+  <a class="btn" href="{% url 'birthday_create' %}">Cadastrar novo</a>
+  <ul class="list">
+    {% for b in items %}
+      <li>{{ b.name }} — {{ b.birth_date }}</li>
+    {% empty %}
+      <li>Nenhum registro.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

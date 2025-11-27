@@ -1,0 +1,18 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>{% block title %}Bot Birthday{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+  </head>
+  <body>
+    <nav>
+      <a href="{% url 'birthday_list' %}">Aniversários</a>
+      <a href="{% url 'birthday_create' %}">Novo</a>
+    </nav>
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>
