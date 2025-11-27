@@ -23,8 +23,7 @@ docker-compose.override.yml
 evolution_instances/
 postgres_data/
 
-# Node/npm (se usar)
-node_modules/
+
 
 # Git
 .DS_Store
